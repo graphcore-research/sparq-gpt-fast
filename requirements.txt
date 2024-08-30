@@ -1,5 +1,13 @@
-torch
+torch>=2.4
+numpy
 sentencepiece
 tiktoken
 blobfile
 safetensors
+tqdm
+huggingface-hub
+matplotlib
+black
+pytest
+git+https://github.com/oscarkey/typed-configs.git
+typed-argument-parser
