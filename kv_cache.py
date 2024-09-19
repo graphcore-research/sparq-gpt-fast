@@ -1,6 +1,11 @@
 import torch
 from torch import Tensor, nn
 
+# Copyright (c) Graphcore 2024
+# All rights reserved.
+# This source code is licensed under the BSD-3 license,
+# see the LICENSE file in the root directory of this source tree.
+
 
 class KVCache(nn.Module):
     def __init__(
